@@ -1,0 +1,7 @@
+.env
+src/.nuxt/
+src/.output/
+src/node_modules/
+src/.yarn/cache/
+src/coverage/
+src/storybook-static/
