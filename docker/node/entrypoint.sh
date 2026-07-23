@@ -4,7 +4,7 @@ set -eu
 
 if [ "$(id -u)" = "0" ]; then
     mkdir -p /app/node_modules /app/.nuxt /app/.yarn/cache
-    chown -R node:node /app/node_modules /app/.nuxt /app/.yarn/cache
+    chown -R node:node /app/node_modules /app/.nuxt /app/.yarn
 
     exec gosu node "$0" "$@"
 fi
