@@ -72,7 +72,6 @@ const preview: Preview = {
   parameters: {
     backgrounds: { disable: true },
     viewport: { viewports: viewportOptions },
-    chromatic: { viewports: [480, 1344], globals: { theme: 'dark' } },
     controls: {
       matchers: {
         color: /(background|color)$/i,

@@ -38,7 +38,7 @@ const config: StorybookConfig = {
     });
   },
 
-  addons: ['@chromatic-com/storybook', '@storybook/addon-docs', '@storybook/addon-a11y', '@storybook/addon-vitest', '@storybook/addon-themes'],
+  addons: ['@storybook/addon-docs', '@storybook/addon-a11y', '@storybook/addon-vitest', '@storybook/addon-themes'],
 
   stories: ['../app/components/**/*.mdx', '../app/components/**/*.stories.ts'],
 
